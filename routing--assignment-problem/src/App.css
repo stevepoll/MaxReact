@@ -1,0 +1,24 @@
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+}
+
+nav li {
+  display: inline-block;
+  width: 15%;
+  text-align: center;
+  padding: 5px;
+}
+nav li a {
+  color:blue;
+  text-decoration: none;
+}
+nav li a:hover, nav li a:active {
+  color: orange;
+}
+
+.active {
+  color: #fa923f;
+}
